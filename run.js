@@ -1,16 +1,15 @@
 
-var server = require('./server');
-var database = require('./database');
+var express = require('express');
 
-function init(){
+var server = express();
 
-    database.connect(function(){
-        
+server.get('/', function(req, res){
 
-        server.start();
+    res.send('Hello world!');
 
-    });
+});
 
-}
+server.listen(3000, function(){
 
-init();
+    console.log('Server running');
+});

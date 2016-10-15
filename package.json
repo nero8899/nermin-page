@@ -1,14 +1,26 @@
 {
   "name": "nermin-page",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "nero8899",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
-  }
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nero8899/nermin-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nero8899/nermin-page/issues"
+  },
+  "homepage": "https://github.com/nero8899/nermin-page#readme",
+  "description": ""
 }
