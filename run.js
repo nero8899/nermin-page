@@ -9,7 +9,7 @@ server.get('/', function(req, res){
 
 });
 
-server.listen(3000, function(){
+server.listen(80, function(){
 
     console.log('Server running');
 });
